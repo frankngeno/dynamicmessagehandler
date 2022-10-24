@@ -1,0 +1,7 @@
+logging.level.root: DEBUG
+
+test: value
+destinations:
+  routes:
+    resource_record_item: jms:testA, jms:testB
+    test: jms:testC
